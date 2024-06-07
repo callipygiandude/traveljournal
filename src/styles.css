@@ -1,0 +1,92 @@
+body{
+    font-family: Inter;
+    margin: 0;
+}
+
+.nav {
+    background-color: #f55a5a;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav--logo {
+    width: 60px;
+    border-radius: 250px;
+}
+
+.nav--title {
+    color:white;
+}
+
+.card {
+    display: flex;
+    padding: 20px;
+    background-color: bisque;
+    border-width: 1px;
+    border-radius: 5px; 
+    border-style: solid;
+    margin: 5px;
+    gap: 10px;
+}
+
+.card--picture {
+    width: 126px;
+    height: 168px;
+    border-radius: 10px;
+    /* padding: 5px; */
+    object-fit: cover;
+    align-self: center;
+}
+
+.card--body {
+    display: flex;
+    flex-direction: column;
+    /* padding: 5px; */
+
+    justify-content: center;
+    /* background-color: brown; */
+    height: 168px;
+}
+
+.card--loc {
+    align-items: center;
+    display: flex
+    
+}
+
+.card--loc-pin {
+    width: 10px;
+    height: 15px; 
+}
+
+.card--loc-name {
+    font-size: 12px;
+    /* margin: 0px; */
+    margin-left: 15px;
+    color:black;
+}
+
+.card--loc-map {
+    color: gray;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.card--loc-title {
+    margin: 0px;
+    /* background-color: aqua; */
+}
+
+.card--loc-dates {
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    /* background-color: blueviolet; */
+}
+
+.card--loc-desc {
+    font-size: 10px;
+    margin: 0px;
+}
