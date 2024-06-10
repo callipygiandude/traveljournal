@@ -175,11 +175,14 @@ body{
     align-self: flex-end;
     display: flex;
     cursor: pointer;
+    background-color: #f55a5a;
+    border: none;
 }
 
 .modal--close--svg {
     size: 20px;
     align-self: center;
+    color: white;
 }
 
 .modal--header {
@@ -202,6 +205,7 @@ body{
 
 .modal--form--image {
     font-family: Inter;
+    color: white;
 }
 
 .modal--form--textarea {

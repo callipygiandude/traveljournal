@@ -13,9 +13,8 @@ export default function App() {
     function addCard(newCard) {
         setCards(oldCards => ([
             ...oldCards,
-            
-                {...newCard,
-                id: Date.now()}
+            {...newCard,
+             id: Date.now()}
         ]));
     }
 
