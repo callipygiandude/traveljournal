@@ -14,6 +14,9 @@ export default function Card(props) {
             <p className="card--loc-dates"><strong>{props.startDate} - {props.endDate}</strong></p>
             <p className="card--loc-desc">{props.description}</p>
         </div>
+        <button className="card--remove" onClick={props.removeCard}>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M200-440v-80h560v80H200Z"/></svg>
+        </button>
     </div>
 );
 
